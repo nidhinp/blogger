@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.6.0)
+  - BRYXBanner (0.8.0)
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManagerSwift (5.0.6)
+  - Kingfisher (4.5.0)
+  - RNLoadingButton-Swift (5.0.0)
+  - SideMenu (3.1.5)
+  - SkyFloatingLabelTextField (3.4.0)
+  - SVProgressHUD (2.2.2)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BRYXBanner
+  - DZNEmptyDataSet
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - RNLoadingButton-Swift
+  - SideMenu
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  BRYXBanner: 406c3775789136531da6f3c98058be2f16e08a34
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManagerSwift: 02bfbb0dff71c66d0ab77d80d25dfce0c3717735
+  Kingfisher: 26ae0473102b77b575da51960c932431e3745407
+  RNLoadingButton-Swift: 297f5efcc7e93ba396a652469e9c7a038d8be26c
+  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  SkyFloatingLabelTextField: 703aa1420b697392b1e7dba25571180dde018477
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 4009aea4f94189744da32230893214153c52760c
+
+COCOAPODS: 1.2.0
