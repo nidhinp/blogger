@@ -1,24 +1,24 @@
 //
-//  BlogsVC.swift
+//  WriteVC.swift
 //  Blog
 //
-//  Created by Q8coders on 12/25/17.
+//  Created by Q8coders on 12/30/17.
 //  Copyright © 2017 Q8coders. All rights reserved.
 //
 
 import UIKit
-import SideMenu
 
-class BlogsVC: UIViewController {
+class WriteVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        SideMenuManager.default.menuPresentMode = .menuSlideIn
-        SideMenuManager.default.menuFadeStatusBar = false
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
 

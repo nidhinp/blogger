@@ -14,6 +14,7 @@ class MenuVC: UIViewController {
     // MARK: - View cycles
     override func viewDidLoad() {
         super.viewDidLoad()
+        initializer()
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +24,12 @@ class MenuVC: UIViewController {
 
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    }
+    
+    
+    // MARK: - Private view methods
+    fileprivate func initializer() {
+        tableView.tableFooterView = UIView()
     }
 }
 
@@ -51,4 +58,13 @@ extension MenuVC: UITableViewDataSource, UITableViewDelegate {
         return cell;
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.row {
+        case 0: performSegue(withIdentifier: "blogs", sender: nil)
+        case 1: performSegue(withIdentifier: "write", sender: nil)
+        case 2: performSegue(withIdentifier: "drafts", sender: nil)
+        case 2: performSegue(withIdentifier: "friends", sender: nil)
+        default: performSegue(withIdentifier: "profile", sender: nil)
+        }
+    }
 }
